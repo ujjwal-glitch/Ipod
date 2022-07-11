@@ -375,7 +375,7 @@ class App extends React.Component{
       switch(this.state.index)
       {
         case 0:
-          document.getElementById("moreitems").innerHTML='<object style="width:100%;height:100%" type="text/html" data="https://navneetaneja.github.io/stopwatch/stopwatch.html"></object>';
+          document.getElementById("moreitems").innerHTML='<object style="width:100%;height:100%" type="text/html" data="https://ujjwal-glitch.github.io/stopwatch/stopwatch.html"></object>';
           this.setState({
             back:"",
             dropdown:false,
@@ -383,7 +383,7 @@ class App extends React.Component{
           })
           break;
         case 1:
-          document.getElementById("moreitems").innerHTML='<object style="width:100%;height:100%" type="text/html" data="https://navneetaneja.github.io/calculator/index.html"></object>';
+          document.getElementById("moreitems").innerHTML='<object style="width:100%;height:100%" type="text/html" data="https://ujjwal-glitch.github.io/calc/index.html"></object>';
           this.setState({
             back:"",
             dropdown:false,
