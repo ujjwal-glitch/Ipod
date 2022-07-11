@@ -1,0 +1,72 @@
+/* setting up the main container */
+
+.container{
+  width:45vh;
+  height:82vh;
+  background-color: gainsboro;
+  margin: auto;
+  margin-top:5vh;
+  border-radius: 2.5rem;
+  overflow:auto;
+  box-shadow:1px 1px 20px 0px rgba(0, 0, 0,0.8) inset,-1px -1px 50px 0px rgba(0, 0, 0,0.8) inset;
+  -webkit-box-reflect: below 0px linear-gradient(to bottom,rgb(0,0,0),rgba(0,0,0,0.4));
+}
+.screen{
+  width:95%;
+  height:45%;
+  margin:auto;
+  margin-top: 10%;
+  border-radius: 0.5rem;
+  border: 3px solid black;
+}
+.control{
+  border-radius: 50%;
+  background-color: white;
+  width:60%;
+  height: 35%;
+  margin:auto;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color: gray;
+}
+.select{
+  width:40%;
+  height:100%;
+  border-radius: 50%;
+  background-color: gainsboro;
+  cursor: pointer;
+}
+.horizontal{
+  width:100%;
+  height: 40%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* setting up the dropdown menu screen */
+
+.dropdown{
+  background-color:white;
+  width:70%;
+  height: 100%;
+  box-sizing: border-box;
+  padding: 2%;
+  border-top-left-radius: 0.2rem;
+  border-bottom-left-radius: 0.2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  font-weight: 500;
+  overflow: scroll;
+}
+.dropdown::-webkit-scrollbar{
+  display: none;
+}
+.active{
+  background-color: dodgerblue;
+  color: white;
+}
